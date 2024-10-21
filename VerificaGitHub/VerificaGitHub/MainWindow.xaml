@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btnAddBook" Content="Aggiungi Libro" HorizontalAlignment="Left" Margin="66,37,0,0" VerticalAlignment="Top" Click="btnAddBook_Click"/>
+        <Button x:Name="btnSearchByTitle" Content="Cerca dal Titolo" HorizontalAlignment="Left" Margin="66,101,0,0" VerticalAlignment="Top" Click="btnSearchByTitle_Click"/>
+        <Button x:Name="btnSearchByAuthor" Content="Cerca dall'autore" HorizontalAlignment="Left" Margin="66,174,0,0" VerticalAlignment="Top" Click="btnSearchByAuthor_Click"/>
+        <Button x:Name="btnBookNumber" Content="numero Libri" HorizontalAlignment="Left" Margin="66,247,0,0" VerticalAlignment="Top" Click="btnBookNumber_Click"/>
+        <Button x:Name="btnReadingTime" Content="Tempo lettura" HorizontalAlignment="Left" Margin="66,308,0,0" VerticalAlignment="Top" Click="btnReadingTime_Click"/>
+        <Button x:Name="btnToString" Content="To string" HorizontalAlignment="Left" Margin="60,372,0,0" VerticalAlignment="Top" Click="btnToString_Click"/>
+        <TextBox x:Name="txtAddBook" HorizontalAlignment="Left" Margin="207,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtReadingTime" HorizontalAlignment="Left" Margin="207,309,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBookNumber" HorizontalAlignment="Left" Margin="197,247,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSearchByAuthor" HorizontalAlignment="Left" Margin="207,176,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSearchByTitle" HorizontalAlignment="Left" Margin="207,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtToString" HorizontalAlignment="Left" Margin="187,373,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
