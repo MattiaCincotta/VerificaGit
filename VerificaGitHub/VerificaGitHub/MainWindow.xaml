@@ -11,23 +11,34 @@
         <Button x:Name="btnSearchByTitle" Content="Cerca dal Titolo" HorizontalAlignment="Left" Margin="66,101,0,0" VerticalAlignment="Top" Click="btnSearchByTitle_Click"/>
         <Button x:Name="btnSearchByAuthor" Content="Cerca dall'autore" HorizontalAlignment="Left" Margin="66,174,0,0" VerticalAlignment="Top" Click="btnSearchByAuthor_Click"/>
         <Button x:Name="btnBookNumber" Content="numero Libri" HorizontalAlignment="Left" Margin="66,247,0,0" VerticalAlignment="Top" Click="btnBookNumber_Click"/>
-        <Button x:Name="btnReadingTime" Content="Tempo lettura" HorizontalAlignment="Left" Margin="66,308,0,0" VerticalAlignment="Top" Click="btnReadingTime_Click"/>
-        <Button x:Name="btnToString" Content="To string" HorizontalAlignment="Left" Margin="66,350,0,0" VerticalAlignment="Top" Click="btnToString_Click"/>
-        <TextBox x:Name="txtAuthor" HorizontalAlignment="Left" Margin="207,39,0,0" TextWrapping="Wrap" Text="txtAuthor" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="txtReadingTime" HorizontalAlignment="Left" Margin="207,309,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBookNumber" HorizontalAlignment="Left" Margin="197,247,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtSearchByAuthor" HorizontalAlignment="Left" Margin="207,176,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtSearchByTitle" HorizontalAlignment="Left" Margin="207,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtToString" HorizontalAlignment="Left" Margin="187,352,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Margin="342,39,0,0" TextWrapping="Wrap" Text="txtTitle" VerticalAlignment="Top" Width="58"/>
-        <TextBox x:Name="txtEditor" HorizontalAlignment="Left" Margin="426,39,0,0" TextWrapping="Wrap" Text="txtEditor" VerticalAlignment="Top" Width="82"/>
-        <TextBox x:Name="txtYear" HorizontalAlignment="Left" Margin="546,39,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="82"/>
-        <TextBox x:Name="txtPageNumber" HorizontalAlignment="Left" Margin="662,39,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="128"/>
+        <Button x:Name="btnReadingTime" Content="Tempo lettura" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Click="btnReadingTime_Click"/>
+        <Button x:Name="btnToString" Content="To string" HorizontalAlignment="Left" Margin="24,383,0,0" VerticalAlignment="Top" Click="btnToString_Click" RenderTransformOrigin="0.51,1.518"/>
+        <TextBox x:Name="txtAuthor" HorizontalAlignment="Left" Margin="450,204,0,0" TextWrapping="Wrap" Text="Ciccio" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtSearchByAuthor" HorizontalAlignment="Left" Margin="207,176,0,0" TextWrapping="Wrap" Text="Ciccio" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSearchByTitle" HorizontalAlignment="Left" Margin="207,102,0,0" TextWrapping="Wrap" Text="Pasticcio" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Margin="450,246,0,0" TextWrapping="Wrap" Text="Pasticcio" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtEditor" HorizontalAlignment="Left" Margin="452,290,0,0" TextWrapping="Wrap" Text="Alan Davide Bovo" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="txtYear" HorizontalAlignment="Left" Margin="452,327,0,0" TextWrapping="Wrap" Text="2023" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="txtPageNumber" HorizontalAlignment="Left" Margin="452,372,0,0" TextWrapping="Wrap" Text="500" VerticalAlignment="Top" Width="98"/>
         <Label x:Name="P" Content="Parametri Biblioteca" HorizontalAlignment="Left" Margin="652,156,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="662,217,0,0" TextWrapping="Wrap" Text="txtNome" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Left" Margin="667,273,0,0" TextWrapping="Wrap" Text="txtIndirizzo" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="txtApertura" HorizontalAlignment="Left" Margin="667,318,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="txtChiusura" HorizontalAlignment="Left" Margin="676,372,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="662,217,0,0" TextWrapping="Wrap" Text="Erbetta" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Left" Margin="667,273,0,0" TextWrapping="Wrap" Text="via bassi fondi" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtApertura" HorizontalAlignment="Left" Margin="667,318,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtChiusura" HorizontalAlignment="Left" Margin="676,372,0,0" TextWrapping="Wrap" Text="21" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="P_Copia" Content="Parametri Libro" HorizontalAlignment="Left" Margin="441,158,0,0" VerticalAlignment="Top" Height="29" Width="105"/>
+        <Label HorizontalAlignment="Left" Margin="416,372,0,0" VerticalAlignment="Top"/>
+        <Label Content="Autore" HorizontalAlignment="Left" Margin="388,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="Editore" HorizontalAlignment="Left" Margin="388,282,0,0" VerticalAlignment="Top"/>
+        <Label Content="Titolo" HorizontalAlignment="Left" Margin="388,238,0,0" VerticalAlignment="Top"/>
+        <Label Content="Anno" HorizontalAlignment="Left" Margin="388,323,0,0" VerticalAlignment="Top"/>
+        <Label Content="Numero Pagine" HorizontalAlignment="Center" Margin="0,368,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="598,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="ora chiusura" HorizontalAlignment="Left" Margin="586,368,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ora apertura" HorizontalAlignment="Left" Margin="583,314,0,0" VerticalAlignment="Top"/>
+        <Label Content="Indirizzo" HorizontalAlignment="Left" Margin="594,269,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="txtNumeroLibri" Content="" HorizontalAlignment="Left" Margin="206,246,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="txtReadingTime" Content="" HorizontalAlignment="Left" Margin="102,297,0,0" VerticalAlignment="Top" Width="238" Height="43"/>
+        <Label x:Name="txtToString" Content="" HorizontalAlignment="Left" Margin="79,368,0,0" VerticalAlignment="Top" Width="275" Height="50"/>
 
     </Grid>
 </Window>

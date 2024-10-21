@@ -46,7 +46,7 @@ namespace VerificaGitHub
             }
             else
             {
-                return $"con {pageNumber} pagine ci vorranno piùdi 2 ore";
+                return $"con {pageNumber} pagine ci vorranno più di 2 ore";
 
             }
 

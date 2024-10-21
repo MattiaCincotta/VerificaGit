@@ -44,19 +44,22 @@ namespace VerificaGitHub
         private void btnBookNumber_Click(object sender, RoutedEventArgs e)
         {
             int bookNumber = biblioteca.bookNumber();
-            txtBookNumber.Text = bookNumber.ToString();
+            txtNumeroLibri.Content = bookNumber.ToString();
         }
 
         private void btnReadingTime_Click(object sender, RoutedEventArgs e)
         {
-            libro.ReadingTime();
+            string stringa = libro.ReadingTime();
+            txtReadingTime.Content = stringa;
+
         }
 
         private void btnToString_Click(object sender, RoutedEventArgs e)
         {
             string Stringa = libro.ToString();
-            txtToString.Text = Stringa;
+            txtToString.Content = Stringa;
         }
+
 
     }
 }
